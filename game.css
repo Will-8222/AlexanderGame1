@@ -1,0 +1,91 @@
+/* Will Alexander Lab6 */
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+  /*------Center canvas------*/
+     margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    height: 600px; 
+  /*------Center canvas------*/
+
+    border: 1px solid #10ee40;
+    background-color: #f1f1f1;
+    
+    cursor: none;
+  }
+
+ 
+
+  
+  #div {
+     position: absolute;
+     font: 30px Verdana;
+
+}
+
+img{
+
+  /* height : 5px; */
+  width : 50px;
+}
+
+#avatar {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  
+ 
+} 
+
+#ninji {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 888px;
+  
+}
+
+#bullet {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  /* left: 888px; */
+  
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 888px;
+  top: 300px;
+  }
+
+
+  * {
+
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+}
+
+html, body {
+
+  height:100%;
+  width:100%;
+
+}
+
+body {
+
+  align-content:center;
+  background-color: rgb(97, 97, 102);
+  color:#ffffff;
+  display:grid;
+  justify-content:center;
+
+}
